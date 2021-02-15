@@ -7,8 +7,12 @@ CLI for Ethereum gas prices
 ```sh
 go build
 
+./gp
+
 ./gp --slow
+./gp --medium
 ./gp --fast
 
-./gp
+./gp --provider EthGasStation
+./gp --provider GasWatch
 ```
